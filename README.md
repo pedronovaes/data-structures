@@ -6,11 +6,12 @@ This repo contains the Python implementation of the main dynamic data structures
 
 **Stack** implements a *last-in, first-out* (LIFO) policy. The *insert* operation on a stack is often called `push`, and the *delete* operation, which does not take an element argument, is often called `pop`. Both operation take `O(1)` time.
 
+**Queue** implements a *first-in, first-out* (FIFO) policy. The FIFO property of a queue causes it to operate like a line of customers waiting to pay a cashier. We call the *insert* operation on a queue `enqueue`, and we call the *delete* operation `dequeue`. Like the stack operation pop, dequeue takes no element argument. Each operation takes `O(1)` time.
 
 ### implementations
 
 - [X] stack
-- [ ] queue
+- [X] queue
 - [ ] linked list
 - [ ] heap
 - [ ] priority queue
