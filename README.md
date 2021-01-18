@@ -8,11 +8,13 @@ This repo contains the Python implementation of the main dynamic data structures
 
 **Queue** implements a *first-in, first-out* (FIFO) policy. The FIFO property of a queue causes it to operate like a line of customers waiting to pay a cashier. We call the *insert* operation on a queue `enqueue`, and we call the *delete* operation `dequeue`. Like the stack operation pop, dequeue takes no element argument. Each operation takes `O(1)` time.
 
+**Linked List** is a data structure in which the objects are arranged in a linear order. Unlike an array, however, in which the linear order is determined by the array indices, the order in a linked list is determined by a pointer in each object. A list may have one of several forms. It may be either singly linked or doubly linked, it may be sorted or not, and it may be circular or not. In a singly linked list, `insert` operation takes `O(1)` time while `search` and `delete` operations take `O(n)` time.
+
 ### implementations
 
 - [X] stack
 - [X] queue
-- [ ] linked list
+- [X] linked list
 - [ ] heap
 - [ ] priority queue
 - [ ] breadth-first search
