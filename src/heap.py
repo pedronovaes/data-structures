@@ -34,7 +34,8 @@ class Heap:
             self.max_heapify(largest)
 
     def build_max_heap(self):
-        pass
+        for i in range(int(self.heap_size / 2), 0, -1):
+            self.max_heapify(i)
 
     def min_heapify(self, i):
         pass
@@ -48,7 +49,7 @@ class Heap:
     def __str__(self):
         output = ''
 
-        for i in range(1, self.heap_size):
+        for i in range(1, self.heap_size + 1):
             output += str(self.A[i]) + ' '
 
         return output
